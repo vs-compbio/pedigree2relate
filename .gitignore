@@ -1,6 +1,32 @@
-.Rproj.user
+# RStudio Project settings and temporary states
+.Rproj.user/
 .Rhistory
 .RData
+.RDataTmp
+.Ruserdata
 .httr-oauth
 .DS_Store
 .quarto
+
+# R build and check artifacts
+/*.tar.gz
+/*.Rcheck/
+.build.timestamp
+
+# Compiled code dynamic libraries (only if using C/C++ or Fortran)
+src/*.o
+src/*.so
+src/*.dll
+src/*.dylib
+
+# Package documentation and website artifacts
+doc/
+Meta/
+src-i386/
+src-x86_64/
+hlp_funs.R
+
+# OS-specific hidden files
+.DS_Store
+Thumbs.db
+.Rproj.user
