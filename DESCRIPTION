@@ -1,0 +1,18 @@
+Package: pedigree2relate
+Type: Package
+Title: The package parses full wheat-pedigrees to an additive relatiosnhip matrix
+Version: 0.0.0.9000
+Authors@R: 
+    c(person("Vishal", "Singh",
+              email ="singhvis@oregonstate.edu" 
+      person("Margaret", "Krause",
+              email ="margaret.krause@oregonstate.edu")
+Description: The package takes full pedigre strings of set of lines as an input and 
+              generates a three column pedigree (line, parent1, parent2) as an output.
+              This output is manually curated and the cuated file actsasan input and used to 
+              create an additive relationsip matrix. This A matrix and externaly supplied G matrix (Genomic relatedness) is used to 
+              crete H matrix. both A and G matrices are comapred for their statisticla similarities.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE, roclets = c("collate", "rd", "namespace"))
+RoxygenNote: 8.0.0
